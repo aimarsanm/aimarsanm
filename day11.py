@@ -2,4 +2,4 @@
 
 import random
 
-n=random.random
+n=random.randint(1,100)
