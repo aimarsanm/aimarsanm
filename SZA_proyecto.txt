@@ -1,0 +1,7 @@
+bezero bi tipo registrado no registrado 
+
+zerbidor con un archivo que contenga nombre de pelis valoracion y descripcion y (cast)
+
+no registrado a base de un nombre de peli buscar info sobre la pelicula, se pueden hacer busquedas de otro tipo?
+
+registrados añadir pelis cambir valoracion de pelis aañadir comentarios sobre la peli
