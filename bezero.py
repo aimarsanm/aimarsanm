@@ -131,10 +131,10 @@ if __name__ == "__main__":
 
 	while True:
 		option = MenuaNR.menuanr()
-  if option== MenuaNR.IniciarSesion:
-  elif option== MenuaNR.Registrar:
-  elif option== MenuaNR.Eskatu:
-		if option == MenuaNR.List:
+   if option== MenuaNR.IniciarSesion:
+   elif option== MenuaNR.Registrar:
+   elif option== MenuaNR.Eskatu:
+		"""if option == MenuaNR.List:
 			message = "{}\r\n".format( szasar.Command.List )
 			s.sendall( message.encode( "ascii" ) )
 			message = szasar.recvline( s ).decode( "ascii" )
@@ -218,6 +218,6 @@ if __name__ == "__main__":
 			message = "{}{}\r\n".format(szasar.Command.Upload2, filedata)
 			s.sendall(message.encode("ascii"))
 			if not iserror( message ):
-				print( "'{}' fitxategia igo da.".format( filename ) )
+				print( "'{}' fitxategia igo da.".format( filename ) )"""
 			
 	s.close()
