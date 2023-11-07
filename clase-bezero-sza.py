@@ -13,8 +13,8 @@ Clase Main:
 
  BezeroList=[]
 
- BezerList.append(b1)
- BezerList.append(b2)
- BezerList.append(b3)
- BezerList.append(b4)
- BezerList.append(b5)
+ BezeroList.append(b1)
+ BezeroList.append(b2)
+ BezeroList.append(b3)
+ BezeroList.append(b4)
+ BezeroList.append(b5)
