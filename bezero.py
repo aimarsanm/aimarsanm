@@ -133,7 +133,7 @@ if __name__ == "__main__":
 		option = MenuaNR.menuanr()
    if option== MenuaNR.IniciarSesion:
          
-       message = szasar.recvline( s ).decode( "ascii" )
+                        message="{\r\n".format( szasar.Command.List )   s.sendall( message.encode( "ascii" ) )       erantzuna=szasar.recvline( s ).decode( "ascii" )
    elif option== MenuaNR.Registrar:
    elif option== MenuaNR.Eskatu:
 		"""if option == MenuaNR.List:
