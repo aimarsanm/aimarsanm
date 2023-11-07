@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+no#!/usr/bin/env python3
 
 import socket, sys, os
 import szasar
@@ -132,6 +132,8 @@ if __name__ == "__main__":
 	while True:
 		option = MenuaNR.menuanr()
    if option== MenuaNR.IniciarSesion:
+         
+       message = szasar.recvline( s ).decode( "ascii" )
    elif option== MenuaNR.Registrar:
    elif option== MenuaNR.Eskatu:
 		"""if option == MenuaNR.List:
