@@ -131,7 +131,9 @@ if __name__ == "__main__":
 
 	while True:
 		option = MenuaNR.menuanr()
-
+  if option== MenuaNR.IniciarSesion:
+  elif option== MenuaNR.Registrar:
+  elif option== MenuaNR.Eskatu:
 		if option == MenuaNR.List:
 			message = "{}\r\n".format( szasar.Command.List )
 			s.sendall( message.encode( "ascii" ) )
