@@ -156,7 +156,32 @@ if iserror( message ):
 				continue
 """bestela ya beste menura pasau menur"""
   elif option== MenuaNR.Registrar:
-   elif option== MenuaNR.Eskatu:
+
+                                        message="{\r\n".format( szasar.Command.List ) 
+   s.sendall( message.encode( "ascii" ) )  
+     erantzuna=szasar.recvline( s ).decode( "ascii" )
+
+if iserror( message ):
+                                continue
+
+                        izen=input( "Sartu zure izena" )
+
+s.sendall( izena.encode( "ascii" ) ) 
+
+erantzuna2=szasar.recvline( s ).decode( "ascii" )
+
+if iserror( message ):
+                                continue
+
+                        contra=input( "Sartu zure pasahitza" )
+
+s.sendall( contra.encode( "ascii" ) ) 
+
+if iserror( message ):
+                                continue
+"""bestela ya beste menura pasau menur"""
+
+  elif option== MenuaNR.Eskatu:
 		"""if option == MenuaNR.List:
 			message = "{}\r\n".format( szasar.Command.List )
 			s.sendall( message.encode( "ascii" ) )
